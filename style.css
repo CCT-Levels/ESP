@@ -8,6 +8,7 @@ body {
 .nav-tabs {
     border-bottom-color: #E5DCC5;
 }
-.active{
+#active{
     background-color:#C14953;
+    border-color: #E5DCC5;
 }
