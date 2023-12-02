@@ -1,0 +1,13 @@
+body { 
+    padding-top: 85px; 
+    background-color: #E5DCC5;
+}
+#mainnav {
+    background-color: #C14953;
+}
+.nav-tabs {
+    border-bottom-color: #E5DCC5;
+}
+.active{
+    background-color:#C14953;
+}
