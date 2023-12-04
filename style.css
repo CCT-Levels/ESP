@@ -1,5 +1,5 @@
 body { 
-    padding-top: 85px; 
+
     background-color: #E5DCC5;
 }
 #mainnav {
@@ -11,4 +11,14 @@ body {
 #active{
     background-color:#C14953;
     border-color: #E5DCC5;
+}
+.middle {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.imblur {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
 }
