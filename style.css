@@ -2,6 +2,7 @@ body, html {
     height: 100%;
     background-color: #E5DCC5;
     scroll-behavior: smooth;
+    font-family: 'Bebas Neue', sans-serif;
 }
 ::-webkit-scrollbar {
     display: none;
@@ -45,6 +46,15 @@ body, html {
 #clickbutton {
     margin-top: 15%;
 }
+.btn-outline-danger{
+    color: #C14953;
+    border-color: #C14953;
+    fill: #C14953;
+
+}
+.text-danger {
+    color: #C14953 !important;
+}
 .btn-outline-light{
     color: #E5DCC5;
     border-color: #E5DCC5;
@@ -65,4 +75,19 @@ body, html {
 }
 #menu{
     padding-top: 5%;
+}
+#info-wycd{
+    padding-top: 5%;
+}
+.bg-light{
+    background-color: #E5DCC5 !important;
+}
+p {
+    font-size: larger;
+}
+#hpclickcollect{
+    margin-bottom: 10%;
+}
+.text-white {
+    color: #E5DCC5 !important;
 }
