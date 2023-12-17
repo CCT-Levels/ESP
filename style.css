@@ -78,6 +78,8 @@ body, html {
 }
 #info-wycd{
     padding-top: 5%;
+    opacity: 0;
+    transition: all .1s ease;
 }
 .bg-light{
     background-color: #E5DCC5 !important;
