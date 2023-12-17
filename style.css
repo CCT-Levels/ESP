@@ -85,7 +85,7 @@ body, html {
 p {
     font-size: larger;
 }
-#hpbutton{
+.hpbutton{
     margin-bottom: 10%;
 }
 .text-white {
