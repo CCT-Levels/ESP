@@ -1,6 +1,10 @@
-body { 
-
+body, html { 
+    height: 100%;
     background-color: #E5DCC5;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    display: none;
 }
 #mainnav {
     background-color: #C14953;
@@ -14,11 +18,51 @@ body {
 }
 .middle {
     position: absolute;
-    top: 25%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: 'Bebas Neue', sans-serif;
 }
-.imblur {
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
+.parallax {
+    background-image: url(images/costaCoffeeCup.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fixpos{
+    padding-top: 26%;
+    padding-left: 33%;
+    position: fixed;
+    display: block;
+}
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+#clickbutton {
+    margin-top: 15%;
+}
+.btn-outline-light{
+    color: #E5DCC5;
+    border-color: #E5DCC5;
+    fill: #E5DCC5;
+}
+.btn-outline-light:hover{
+    border-color: #E5DCC5;
+    background-color: #E5DCC5;
+}
+.page2 {
+    background-image: url(images/stemCafe.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#menu{
+    padding-top: 5%;
 }
